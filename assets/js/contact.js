@@ -14,8 +14,7 @@ $(document).ready(function(){
             rules: {
                 name: {
                     required: true,
-                    minlength: 2
-                },
+                                    },
                 subject: {
                     required: true,
                     minlength: 4
@@ -30,7 +29,7 @@ $(document).ready(function(){
                 },
                 message: {
                     required: true,
-                    minlength: 20
+                    
                 }
             },
             messages: {
